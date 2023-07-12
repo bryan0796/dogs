@@ -15,5 +15,6 @@ module.exports = {
     'no-unused-vars':0,
     'react/prop-types': 'off',
     'react-refresh/only-export-components': 'off',
+    'no-unsafe-finally':'off',
   },
 }
