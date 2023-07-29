@@ -22,7 +22,7 @@ const UserHeaderNav = () => {
 
   function handleLogout() {
     userLogout();
-    navigate('/login');
+    navigate('/dogs/login');
   }
 
   return (

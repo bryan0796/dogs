@@ -23,7 +23,7 @@ function App() {
               <Route path="/dogs" element={<Home />} />
               <Route path="/dogs/login/*" element={<Login />} />
               <Route
-                path="/dogs/conta/*"
+                path="/conta/*"
                 element={
                   <ProtectedRoute>
                     <User />

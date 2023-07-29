@@ -40,13 +40,13 @@ const LoginForm = () => {
         
       </form>
 
-      <Link className={styles.perdeu} to="/login/perdeu">
+      <Link className={styles.perdeu} to="/dogs/login/perdeu">
         Perdeu a senha?
       </Link>
       <div className={styles.cadastro}>
         <h2 className={styles.subtitle}>Cadastre-se</h2>
         <p>Ainda não possui conta? Cadastre-se no site.</p>
-        <Link className={stylesBtn.button} to="/login/criar">
+        <Link className={stylesBtn.button} to="/dogs/login/criar">
           Cadastro
         </Link>
       </div>
