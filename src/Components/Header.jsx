@@ -18,7 +18,7 @@ const Header = () => {
     let interval;
     interval = setInterval(() => {
       setOlho((olho) => Math.min(olho + 1, 4));
-    }, 160);
+    }, 180);
 
     if (olho == 4) clearInterval(interval);
   }
